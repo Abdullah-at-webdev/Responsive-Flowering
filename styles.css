@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Noto Serif", serif;
+}
+
+/* Making Some Primary Colors */
+.menu-gray{
+    color: rgba(137, 135, 161, 1);
+}
+
+.primary-orange{
+    color: rgba(233, 90, 8, 1);
+}
+.primary-black{
+    color: rgba(0, 0, 0, 1);
+}
+.description-gray{
+    color: rgba(0, 0, 0, 0.5);
+}
+.white-text{
+    color: rgba(255, 255, 255, 1);
+}
