@@ -20,3 +20,13 @@ body{
 .white-text{
     color: rgba(255, 255, 255, 1);
 }
+
+/* Setting primary width  */
+.primary-max-width{
+    max-width: 1140px;
+}
+
+
+
+
+/* Setting Mobile Responsive styles */

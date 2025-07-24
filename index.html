@@ -11,18 +11,21 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <section class="navbar">
-        <nav>
-            <h3 class="logo-title">Flowering</h3>
-            <ul class="menus">
+    <section class="navbar banner">
+        <nav class="flex max-sm:ml-16 max-sm:mr-16 justify-between primary-max-width mt-30 ml-auto mr-auto">
+            <h3 class="logo-title text-4xl">Flowering</h3>
+            <div class="nav-menu-elements flex items-center gap-10">
+                <ul class="menus hidden md:flex items-center gap-5">
                 <li style="color: rgba(37, 36, 50, 1);">Home</li>
                 <li class="menu-gray">Shop</li>
                 <li class="menu-gray">About Us</li>
             </ul>
             <button class="add-cart">
-                <i class="fa-solid fa-cart-plus">Cart $78</i>
+                <i class="fa-solid fa-cart-plus"><span class="ml-5">Cart $78</span></i>
             </button>
+            </div>
         </nav>
+        <!-- main.   -->
     </section>
 </body>
 </html>
